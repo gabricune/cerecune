@@ -1,58 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sud Tirolo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
-<header>
-    <nav>
-        <div class="container">
-            <h3 class="logo">Brand<span>Name</span></h3>
-            <div class="hamburger-menu">
-                <div class="bar"></div>
+    <div class="hero">
+        <div class="header">
+            <div class="header__cointainer">
+                <h3 class="logo">sud<span>tirolo</span></h3>
+                <div class="hamburger-menu">
+                    <div class="bar">
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <h1 class="big-title translate" data-speed="0.1">Südtirol</h1>
+        <h1 class="big-title translate" data-speed="0.1">Südtirol</h1>
 
-    <img id="immagine1" src="immagini/bghero-1.png" class="mountain1 translate" data-speed="-0.15" alt="">
-    <img id="immagine2" src="immagini/bghero-2.png" class="mountain2 translate" data-speed="0.15" alt="">
-    <img id="immagine3" src="immagini/bghero-3.png" class="mountain3 translate" data-speed="0.25" alt="">
-    <img id="immagine4" src="immagini/bghero-4.png" class="mountain4 translate" data-speed="-0.06" alt="">
+        <img id="immagine1" src="immagini/bghero-1.png" class="mountain1 translate" data-speed="-0.15" alt="immagine1">
+        <img id="immagine2" src="immagini/bghero-2.png" class="mountain2 translate" data-speed="0.15" alt="immagine2">
+        <img id="immagine3" src="immagini/bghero-3.png" class="mountain3 translate" data-speed="0.20" alt="immagine3">
+        <img id="immagine4" src="immagini/bghero-4.png" class="mountain4 translate" data-speed="-0.05" alt="immagine4">  
+    </div>
+
 
     
-    
-</header>
+<div class="panel">
+    <div class="shadow">
+    </div>
 
-<section>
-    
-    <div class="shadow"></div>
-
-    <div class="container">
-        <div class="content opacity">
-            <h3 class="title">
+    <div class="panel__container">
+        <div class="panel__content opacity">
+            <h3 class="title normaltext">
                 About
                 <div class="border"></div>
             </h3>
-            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.</p>
+            <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.
+            </p>
         </div>
 
-        <div class="imgContainer opacity">
+        <div class="conintainer__img opacity">
             <img src="img/image.jpg" alt="">
         </div>
     </div>
-</section>
+</div>
 
+
+
+
+
+<!-- Jquery -->
 <script src="app.js"></script>
 
 
 
-    
 </body>
+
 </html>

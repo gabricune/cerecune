@@ -1,10 +1,12 @@
+
+
 const translate = document.querySelectorAll(".translate");
 const big_title = document.querySelector(".big-title");
-const header = document.querySelector("header");
+const header = document.querySelector(".hero");
 const shadow = document.querySelector(".shadow");
-const content = document.querySelector(".content");
-const section = document.querySelector("section");
-const image_container = document.querySelector(".imgContainer");
+const content = document.querySelector(".panel__content");
+const section = document.querySelector(".panel");
+const image_container = document.querySelector(".conintainer__img");
 const opacity = document.querySelectorAll(".opacity");
 const border = document.querySelector(".border");
 
