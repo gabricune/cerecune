@@ -50,8 +50,8 @@ body
 
 .bigtext
 {
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 80px;
+    font-weight: 700;
 }
 .midtext
 {
@@ -59,25 +59,18 @@ body
 }
 .smalltext
 {
-    font-size: 14px;
+    font-size: 16px;
 }
 .normaltext
 {
-    font-size: 24px;
+    font-size: 22px;
 }
 .introtext
 {
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-@media (max-width: 1120px)
-{
-    .bigtext
-    {
-        font-size: 40px;
-    }
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 
@@ -111,7 +104,7 @@ body
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 0;
+    padding: 16px 0;
     z-index: 30;
     background: linear-gradient(to bottom, rgba( 0, 0, 0, 0.05), transparent)
 }
@@ -120,7 +113,8 @@ body
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
+
 }
 
 .header__cointainer
@@ -130,23 +124,29 @@ body
     margin: 0 auto;
 }
 
-.logo
-{
-    color: #fff;
-    font-size: 17.6px;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-.logo span
+.introtext span
 {
     font-weight: 300;
+    padding-right: 6px;
+}
+
+.vl
+{
+    height: 26px;
+    border-left: #fff solid 3px;
+    margin-right: 1000px;
+}
+
+.menu
+{
+    width: 100%;
+    display: inline-block;
 }
 
 .hamburger-menu
 {
-    width: 24.8px;
+    display: none;
+    width: 25px;
     height: 24px;
     cursor: pointer;
     display: flex;
@@ -157,17 +157,18 @@ body
 .bar
 {
     position: relative;
-    width: 19.2px; 
+    width: 19px; 
     height: 3px;
     background-color: #fff;
     border-radius: 2px;
+    display: none;
 }
 
 .bar:before, .bar:after
 {
     content: '';
     position: absolute;
-    width: 24.8px;
+    width: 25px;
     height: 3px;
     right: 0;
     background-color: #fff;
@@ -192,8 +193,6 @@ body
     top: calc(50% - 32px);
     width: 100%;
     text-align: center;
-    font-size: 80px;
-    font-weight: 600;
     color: #fff;
 }
 
@@ -228,6 +227,19 @@ body
     height: 100vh;;
     z-index: 17;
     width: 100vw;
+}
+
+@media (max-width: 1120px)
+{
+    .bigtext
+    {
+        font-size: 40px;
+    }
+
+    .bar
+    {
+        display: block;
+    }
 }
 
 
@@ -276,9 +288,8 @@ body
 .title
 {
     font-weight: 600;
-    margin-bottom: 16px;
-    padding-bottom: .80px;
     position: relative;
+    margin-bottom: 8px;
 }
 
 .border
@@ -287,8 +298,8 @@ body
     width: 0%;
     height: 3px;
     background-color: #fff;
-    bottom: 0;
     left: 0;
+    margin-bottom: 15px;
 }
 
 .shadow
@@ -322,7 +333,7 @@ body
 
     .title
     {
-        font-size: 19.2px;
+       padding-bottom: 5px;
     }
 
     img#immagine1 
